@@ -381,4 +381,17 @@ select {
   .teams-grid {
     grid-template-columns: 1fr;
   }
+
+  .attendee-list {
+  list-style: none;
+  padding: 0;
+  margin: 12px 0 0;
+}
+.attendee-list li {
+  background: #fff;
+  border-left: 4px solid #0071c5;
+  padding: 10px 14px;
+  margin-bottom: 8px;
+  border-radius: 6px;
+}
 }
